@@ -62,35 +62,75 @@ picture {
   :root {
     /* colors */
     --White: hsl(0, 0%, 100%);
+    --gray400: hsl(212, 6%, 44%);
+    --gray500: hsl(234, 12%, 34%);
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --blue: hsl(212, 86%, 64%);
+    --orange: hsl(34, 97%, 64%);
 
     /* spacing */
     --space-100: 0.5rem; /* 8px */
-    --space-150: 0.75rem; /* 12px */
     --space-200: 1rem; /* 16px */
     --space-300: 1.5rem; /* 24px */
     --space-400: 2rem; /* 32px */
     --space-500: 2.5rem; /* 40px */
-    --space-600: 3rem; /* 48px */
-    --space-1600: 8rem; /* 128px */
-
 
     /* font families */
     --main: "Outfit", sans-serif;
-    --headline: "Young Serif", serif;
 
-    /* type scale */
-    --base-size: 1rem; /* 16px */
-    --scale: 1.333;
+    /* type size */
+    --base-size: .938rem; /* 15px */
+    --small: .75rem; /* 12px */
+  }
 
-    /* Start from base size for smallest heading */
-    --h6: var(--base-size); 
-    --h5: calc(var(--h6) * var(--scale)); /* scale up from h6 */
-    --h4: calc(var(--h5) * var(--scale));
-    --h3: calc(var(--h4) * var(--scale));
-    --h2: calc(var(--h3) * var(--scale));
-    --h1: calc(var(--h2) * var(--scale));
+    body {
+    font-family: var(--main);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    }
+  
+  p {
+    font-size: var(--base-size);
+    font-family: var(--main);
+  }
 
-    --small: calc(var(--base-size) / var(--scale)); /* smaller than base */
+  .text-preset-1 {
+    font-family: var(--main);
+    font-size: 2.25rem; /* 36px */
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.25px;
+  }
+
+  .text-preset-2 {
+    font-family: var(--main);
+    font-size: 2.25rem; /* 36px */
+    font-weight: 200;
+    line-height: 1.4;
+    letter-spacing: 0.25px;
+  }
+
+  .text-preset-3 {
+    font-family: var(--main);
+    font-weight: 600;
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.35;
+  }
+
+  .text-preset-4 {
+    font-family: var(--main);
+    font-weight: 400;
+    font-size: 0.938rem; /* 15px */
+    line-height: 1.4;
+  }
+
+  .text-preset-5 {
+    font-family: var(--main);
+    font-weight: 400;
+    font-size: .813rem; /* 13px */
+    line-height: 1.6;
   }
 
   /* border box model: https://css-tricks.com/box-sizing/ */
@@ -115,44 +155,9 @@ picture {
   h4,
   h5,
   h6 {
-    font-family: var(--headline);
+    font-family: var(--main);
   }
-  h1 {
-    font-size: var(--h1);
-  }
-  h2 {
-    font-size: var(--h2);
-  }
-  h3 {
-    font-size: var(--h3);
-  }
-  h4 {
-    font-size: var(--h4);
-  }
-  h5 {
-    font-size: var(--h5);
-  }
-  h6 {
-    font-size: var(--h6);
-  }
-  .h1 {
-    font-size: var(--h1);
-  }
-  .h2 {
-    font-size: var(--h2);
-  }
-  .h3 {
-    font-size: var(--h3);
-  }
-  .h4 {
-    font-size: var(--h4);
-  }
-  .h5 {
-    font-size: var(--h5);
-  }
-  .h6 {
-    font-size: var(--h6);
-  }
+  
   p {
     font-size: var(--base-size);
     font-family: var(--main);
