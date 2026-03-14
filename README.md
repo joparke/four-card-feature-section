@@ -18,7 +18,7 @@ This is a solution to the [Four card feature challenge on Frontend Mentor](https
 
 - Repo URL: [https://github.com/joparke/four-card-feature-section](https://github.com/joparke/four-card-feature-section)
 
-- Live Site URL: [https://joparke.github.io/product-preview-card/](https://joparke.github.io/product-preview-card/)
+- Live Site URL: [https://joparke.github.io/four-card-feature-section/](https://joparke.github.io/four-card-feature-section/)
 
 ### Built with
 
