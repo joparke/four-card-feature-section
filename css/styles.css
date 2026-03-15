@@ -228,8 +228,9 @@ picture {
         padding: 2rem 0;
     }
     footer p {
-       font-size: var(--small); text-align: center;
-      }
+       font-size: var(--small);
+       text-align: center;
+    }
     footer a:hover, footer a:focus, footer a:active {
       color: var(--red);
     }

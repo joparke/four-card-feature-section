@@ -28,7 +28,6 @@ This is a solution to the [Four card feature challenge on Frontend Mentor](https
 - Picalilli CSS reset
 - VS Code
 
-
 ### Useful resources
 
 - [Piccalilli CSS reset](https://piccalil.li/blog/a-more-modern-css-reset/) - Utilized this CSS reset
